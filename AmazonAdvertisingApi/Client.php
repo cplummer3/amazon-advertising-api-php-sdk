@@ -7,7 +7,7 @@ require_once "CurlRequest.php";
 
 class Client
 {
-    private $config = array(
+    public $config = array(
         "clientId" => null,
         "clientSecret" => null,
         "region" => null,
